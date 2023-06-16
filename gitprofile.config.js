@@ -2,30 +2,30 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'Asif Iftekher Pial', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'https://www.linkedin.com/in/asif-iftekher-pial/',
     twitter: 'arif_szn',
     mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
+    facebook: 'https://www.facebook.com/ipial7425',
+    instagram: 'https://www.instagram.com/perseus_pial/',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
     website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    phone: '+8801682824509',
+    email: 'iftekherpial67@gmail.com',
   },
   resume: {
     fileUrl:
@@ -34,33 +34,24 @@ const config = {
   skills: [
     'PHP',
     'Laravel',
+    'Vue.js',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'JQuery',
+    'Ajax',
     'MySQL',
-    'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
+    'Bootstrap 5',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Daraz Bangladesh',
+      position: 'Jr. Software Engineer',
+      from: 'April 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.daraz.com.bd/',
     },
   ],
   /* certifications: [
@@ -73,16 +64,16 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'International University of Business Agriculture and Technology',
+      degree: 'BCSE',
       from: '2015',
-      to: '2019',
+      to: '2021',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Uttara High School and College',
+      degree: 'Business Studies',
+      from: '2013',
+      to: '2015',
     },
   ],
 
@@ -118,7 +109,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'procyon',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -178,11 +169,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 };
 
 export default config;
