@@ -11,11 +11,11 @@ const config = {
     },
   },
   social: {
-    linkedin: 'asif-iftekher-pial/',
+    linkedin: 'asif-iftekher-pial',
     twitter: '',
     mastodon: '',
     facebook: 'ipial7425',
-    instagram: 'perseus_pial/',
+    instagram: 'perseus_pial',
     dribbble: '',
     behance: '',
     medium: '',
